@@ -67,7 +67,7 @@ updateChat = function(entries)
             var uc = ucolor(name)
             var sc = name === 'system' ? system_say : '#eeeeec'
             u = '<td style="color:' + uc + ';">' + name + '</td>' 
-            t = '<td style="color:' + sc + ';">' + talk + '</td>'  
+            t = '<td style="color:black;">' + talk + '</td>'  
             $('#main').append( "<tr>" + u + t + "</tr>" )
         }
         current = entries
